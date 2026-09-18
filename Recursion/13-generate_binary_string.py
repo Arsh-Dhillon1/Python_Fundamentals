@@ -6,4 +6,5 @@ def generate(n,current):
     generate(n,current+'0')
     generate(n,current+"1")
 
-generate(3,"")
+n = int(input())
+generate(n,"")
